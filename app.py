@@ -16,14 +16,6 @@ st.markdown("<h2 style='text-align: center;'>Hola 👋, Soy Iris, tu asistente d
 
 st.markdown("""
     <style>
-    .reportview-container {
-        background: #f0f0f5
-    }
-    .main .block-container {
-        background: #e6e6fa;
-        color: #333;
-        padding: 2rem;
-    }
     .viewerBadge_link__qRIco{
         display:none!important;
     }

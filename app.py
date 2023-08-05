@@ -9,10 +9,10 @@ load_dotenv()
 
 st.set_page_config(layout="centered")  
 
-# col1 = st.columns([1,1])
+col1, col2 = st.columns([1,2])
 
 
-# with col1:
+with col1:
     st.title("Hola 👋, Soy Iris, ¿en qué puedo ayudarte?")
 # Initialize chat history
 if "messages" not in st.session_state:

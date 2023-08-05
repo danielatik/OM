@@ -19,6 +19,9 @@ st.markdown("""
     .viewerBadge_link__qRIco{
         display:none!important;
     }
+    css-usj992 {
+        padding-bottom:100px!important;
+    }
     </style>
     """, unsafe_allow_html=True)
 

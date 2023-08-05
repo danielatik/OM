@@ -20,7 +20,7 @@ st.markdown("""
         display:none!important;
     }
     .css-usj992 {
-        padding-bottom:100px!important;
+        padding-bottom:150px!important;
     }
     </style>
     """, unsafe_allow_html=True)

@@ -14,6 +14,21 @@ st.set_page_config(layout="wide")
 # col1, col2 = st.columns([1,2])
 st.markdown("<h2 style='text-align: center;'>Hola 👋, Soy Iris, tu asistente de Open Montessori, ¿en qué puedo ayudarte?</h2>", unsafe_allow_html=True)
 
+st.markdown("""
+    <style>
+    .reportview-container {
+        background: #f0f0f5
+    }
+    .main .block-container {
+        background: #e6e6fa;
+        color: #333;
+        padding: 2rem;
+    }
+    .viewerBadge_link__qRIco{
+        display:none;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 # with col1:
 #     st.title("Hola 👋, Soy Iris, ¿en qué puedo ayudarte?")

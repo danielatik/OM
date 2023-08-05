@@ -10,7 +10,7 @@ load_dotenv()
 st.set_page_config(layout="centered")  
 
 # col1, col2 = st.columns([1,2])
-st.markdown("<h1 style='text-align: center; color: black;'>Hola 👋, Soy Iris, ¿en qué puedo ayudarte?</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Hola 👋, Soy Iris de Open Montessori, ¿en qué puedo ayudarte?</h1>", unsafe_allow_html=True)
 
 
 # with col1:

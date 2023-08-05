@@ -16,7 +16,7 @@ st.markdown("<h2 style='text-align: center;'>Hola 👋, Soy Iris, tu asistente d
 
 st.markdown("""
     <style>
-    .viewerBadge_link__qRIco{
+    .viewerBadge_container__r5tak{
         display:none!important;
     }
     .css-usj992 {

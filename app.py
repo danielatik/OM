@@ -9,7 +9,7 @@ load_dotenv()
 
 st.set_page_config(layout="centered")  
 
-col1, col2 = st.columns([1,2])
+col1, col2 = st.columns([1])
 
 
 with col1:

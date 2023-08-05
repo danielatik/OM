@@ -25,7 +25,7 @@ st.markdown("""
         padding: 2rem;
     }
     .viewerBadge_link__qRIco{
-        display:none;
+        display:none!important;
     }
     </style>
     """, unsafe_allow_html=True)

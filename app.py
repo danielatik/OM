@@ -2,10 +2,12 @@ import streamlit as st
 import time
 import requests
 import json
+import logging
 import os
 from PIL import Image
 from dotenv import load_dotenv
 load_dotenv()
+logging.basicConfig(filename='chat.log', level=logging.INFO)
 
 # st.markdown("<!-- Hotjar Tracking Code for OM Iris --><script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:3602316,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');</script>")
 
@@ -40,6 +42,9 @@ for message in st.session_state.messages:
 if prompt := st.chat_input("Pregunta lo que quieras sobre OM..."):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
+    
+    logging.info('User: ', prompt)
+    
     # Display user message in chat message container
     with st.chat_message("user"):
         st.markdown(prompt)
@@ -77,4 +82,5 @@ if prompt := st.chat_input("Pregunta lo que quieras sobre OM..."):
                             except json.JSONDecodeError:
                                 print(f'Error al decodificar el objeto JSON en la línea: {line}')
         message_placeholder.markdown(full_response)
+        logging.info('Agent: ', full_response)
     st.session_state.messages.append({"role": "assistant", "content": full_response})

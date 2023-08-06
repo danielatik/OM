@@ -29,6 +29,9 @@ st.markdown("""
         padding-bottom:100px!important;
     }
     </style>
+    <script>
+        alert('hola');
+    </script>
     """, unsafe_allow_html=True)
 
 # with col1:

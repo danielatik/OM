@@ -30,7 +30,10 @@ st.markdown("""
     }
     </style>
     <script>
-        alert('hola');
+        let elementos = document.querySelectorAll('[class^="viewerBadge"]');
+        for (let i = 0; i < elementos.length; i++) {
+            elementos[i].style.display = 'none'; 
+        }
     </script>
     """, unsafe_allow_html=True)
 

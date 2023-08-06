@@ -19,7 +19,8 @@ st.markdown("""
     .css-zq5wmm{
         display:none;
     }
-    [class^="viewerBadge_container!]{
+
+    [class^="viewerBadge_container"]{
         display:none!important;
     }
 

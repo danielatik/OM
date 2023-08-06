@@ -47,7 +47,7 @@ if prompt := st.chat_input("Pregunta lo que quieras sobre OM..."):
     if prompt == 'muestralog':
         with open('chat.log', 'r') as log_file:
             log_content = log_file.read()
-        st.text(log_content)
+        st.markdown(log_content)
     
     # Display user message in chat message container
     with st.chat_message("user"):

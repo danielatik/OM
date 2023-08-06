@@ -21,7 +21,8 @@ st.markdown("""
     }
 
     [class^="viewerBadge"]{
-        visibility:hidden!important;
+        position:absolute!important;
+        bottom:-100px!important;
     }
 
     .css-usj992 {

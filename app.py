@@ -20,8 +20,8 @@ st.markdown("""
         display:none;
     }
 
-    [class^="viewerBadge_container"]{
-        display:none!important;
+    [class^="viewerBadge"]{
+        visibility:hidden!important;
     }
 
     .css-usj992 {

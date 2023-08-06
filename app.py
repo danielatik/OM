@@ -19,7 +19,7 @@ st.markdown("""
     .css-zq5wmm{
         display:none;
     }
-    .viewerBadge_container__r5tak{
+    .styles_stateContainer__CelYF a{
         position:absolute!important;
         bottom:-100px!important;
     }

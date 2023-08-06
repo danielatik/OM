@@ -19,6 +19,10 @@ st.markdown("""
     .css-zq5wmm{
         display:none;
     }
+    [class^="viewerBadge_container!]{
+        display:none!important;
+    }
+
     .css-usj992 {
         padding-bottom:100px!important;
     }

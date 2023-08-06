@@ -19,9 +19,8 @@ st.markdown("""
     .css-zq5wmm{
         display:none;
     }
-    .styles_stateContainer__CelYF a{
-        position:absolute!important;
-        bottom:-100px!important;
+    a{
+        display:none!important;
     }
     .css-usj992 {
         padding-bottom:100px!important;

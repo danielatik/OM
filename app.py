@@ -19,22 +19,10 @@ st.markdown("""
     .css-zq5wmm{
         display:none;
     }
-
-    [class^="viewerBadge"]{
-        position:absolute!important;
-        bottom:-100px!important;
-    }
-
     .css-usj992 {
         padding-bottom:100px!important;
     }
     </style>
-    <script>
-        let elementos = document.querySelectorAll('[class^="viewerBadge"]');
-        for (let i = 0; i < elementos.length; i++) {
-            elementos[i].style.display = 'none'; 
-        }
-    </script>
     """, unsafe_allow_html=True)
 
 # with col1:

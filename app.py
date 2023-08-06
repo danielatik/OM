@@ -20,7 +20,10 @@ st.markdown("""
         visibility:hidden!important;
     }
     .css-usj992 {
-        padding-bottom:150px!important;
+        padding-bottom:100px!important;
+    }
+    .stChatInputContainer{
+        width:60%!important;
     }
     </style>
     """, unsafe_allow_html=True)

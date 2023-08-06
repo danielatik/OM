@@ -16,6 +16,9 @@ st.markdown("<h2 style='text-align: center;'>Hola 👋, Soy Iris, tu asistente d
 
 st.markdown("""
     <style>
+    .css-zq5wmm{
+        display:none;
+    }
     .styles_viewerBadge__CvC9N{
         visibility:hidden!important;
     }

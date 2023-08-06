@@ -20,7 +20,8 @@ st.markdown("""
         display:none;
     }
     .viewerBadge_container__r5tak{
-        visibility:hidden!important;
+        position:absolute!important;
+        bottom:-100px!important;
     }
     .css-usj992 {
         padding-bottom:100px!important;

@@ -19,7 +19,7 @@ st.markdown("""
     .css-zq5wmm{
         display:none;
     }
-    .styles_viewerBadge__CvC9N{
+    .viewerBadge_container__r5tak{
         visibility:hidden!important;
     }
     .css-usj992 {

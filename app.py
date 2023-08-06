@@ -22,7 +22,7 @@ st.markdown("""
     .css-usj992 {
         padding-bottom:100px!important;
     }
-    .stChatInputContainer{
+    .stChatInputContainer *{
         width:60%!important;
     }
     </style>

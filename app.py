@@ -9,12 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 logging.basicConfig(filename='chat.log', level=logging.INFO)
 
-# hello bye
-# changing new 1
-# changing new 2
-# changing new 3
-# changing new 4
-# changing new 5
+
 
 
 # st.markdown("<!-- Hotjar Tracking Code for OM Iris --><script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:3602316,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');</script>")
@@ -24,7 +19,9 @@ st.set_page_config(layout="wide");
 
 
 # col1, col2 = st.columns([1,2])
+
 st.markdown((-()"<h2 style='text-align: center;'>Hola 👋, Soy Iris, tu asistente de Open Montessori, ¿en qué puedo ayudarte?</h2>", unsafe_allow_html=True)
+
 
 st.markdown("""
     <style>
